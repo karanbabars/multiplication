@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Enter the number "
+echo " Enter the number "
 read num
 i=1
 mul=1
