@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo " Enter the number "
-read num
+num=7
 i=1
 mul=1
 while [ $i -le 10 ]
