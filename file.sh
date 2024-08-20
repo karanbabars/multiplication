@@ -1,12 +1,12 @@
 #!/bin/bash
 
 echo "Enter the number "
-read n
-
-
+read num
 i=1
+mul=1
 while [ $i -le 10 ]
 do
-  echo $n=$n*$i=$(($n*$i))
+  mul=$ (( $num * $i ))
+  echo " $num * $i = $mul "
   ((i++))
 done
